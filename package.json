@@ -1,6 +1,6 @@
 {
   "name": "generator-jhipster-circleci-2",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Generating CircleCI configuration file version 2 for a JHipster project",
   "keywords": [
     "yeoman-generator",
