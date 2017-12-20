@@ -4,7 +4,7 @@
 
 # Introduction
 
-This is a [JHipster](http://jhipster.github.io/) module, that is meant to be used in a JHipster application.
+This is a [JHipster](http://jhipster.github.io/) module, to be used in a JHipster application to generate Circle CI configuration file (version 2).
 
 # Prerequisites
 
@@ -43,6 +43,11 @@ npm update -g generator-jhipster-circleci-2
 ```
 
 # Usage
+
+To generate Circle CI configuration file for current JHipster project, just run the following command from the project folder.
+```bash
+yo jhipster-circleci-2
+```
 
 # License
 
