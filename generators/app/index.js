@@ -9,7 +9,7 @@ module.exports = class extends BaseGenerator {
             readConfig() {
                 this.jhipsterAppConfig = this.getJhipsterAppConfig();
                 if (!this.jhipsterAppConfig) {
-                    this.error('Can\'t read .yo-rc.json');
+                    this.error('No .yo-rc.json found. Or, it is not a valid JHipster project per information in .yo-rc.json.');
                 }
             },
             displayLogo() {

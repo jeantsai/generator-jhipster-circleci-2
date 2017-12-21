@@ -58,6 +58,10 @@ To generate Circle CI configuration file for current JHipster project, just run 
 yo jhipster-circleci-2
 ```
 
+> If encountered a error with messages similar to "No .yo-rc.json found. Or, it is not a valid JHipster project per information in .yo-rc.json.", etc.
+>> Please make sure you are running this generator from inside the main folder of a JHipster project, and there is a .yo-rc.json carrying JHipster configurations. Normally, JHipster will run "yarn install" before the end of generating the scaffold for your. If not, please try to run it manually.
+
+
 # License
 
 MIT © [Cai Jun](https://github.com/jeantsai)
