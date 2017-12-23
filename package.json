@@ -4,11 +4,12 @@
   "description": "Generating CircleCI configuration file version 2 for a JHipster project",
   "keywords": [
     "yeoman-generator",
-    "jhipster-module"
+    "jhipster-module",
+    "circleci"
   ],
   "homepage": "https://github.com/jeantsai/generator-jhipster-circleci-2",
   "author": {
-    "name": "Cai Jun",
+    "name": "Jun Cai",
     "email": "jeantsai@qq.com",
     "url": "https://github.com/jeantsai"
   },
