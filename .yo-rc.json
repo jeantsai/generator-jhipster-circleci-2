@@ -2,7 +2,7 @@
   "generator-jhipster-module": {
     "promptValues": {
       "githubName": "jeantsai",
-      "authorName": "Cai Jun",
+      "authorName": "Jun Cai",
       "authorEmail": "jeantsai@qq.com",
       "authorUrl": "https://github.com/jeantsai"
     }
