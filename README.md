@@ -64,7 +64,7 @@ yo jhipster-circleci-2
 
 # License
 
-MIT © [Cai Jun](https://github.com/jeantsai)
+MIT © [Jun Cai](https://github.com/jeantsai)
 
 
 [npm-image]: https://img.shields.io/npm/v/generator-jhipster-circleci-2.svg
