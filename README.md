@@ -1,5 +1,5 @@
 # generator-jhipster-circleci-2
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+[![Build Status](https://travis-ci.org/jeantsai/generator-jhipster-circleci-2.svg?branch=master)](https://travis-ci.org/jeantsai/generator-jhipster-circleci-2) [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > JHipster module, used to create Circle CI configuration file of version 2
 
 <div align="center">
