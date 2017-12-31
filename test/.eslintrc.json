@@ -1,0 +1,17 @@
+{
+    "globals": {
+        "describe": false,
+        "beforeEach": false,
+        "it": false
+    },
+    "rules": {
+        "import/no-extraneous-dependencies" : [
+            "error", {
+                "devDependencies": [
+                    "**/test-*.js",
+                    "**/*.spec.js"
+                ]
+            }
+        ]
+    }
+}

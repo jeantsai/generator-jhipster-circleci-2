@@ -4,12 +4,13 @@ const semver = require('semver');
 const BaseGenerator = require('generator-jhipster/generators/generator-base');
 
 module.exports = class extends BaseGenerator {
+    // noinspection JSUnusedGlobalSymbols
     get initializing() {
         return {
             readConfig() {
                 this.jhipsterAppConfig = this.getJhipsterAppConfig();
                 if (!this.jhipsterAppConfig) {
-                    this.error('No .yo-rc.json found. Or, it is not a valid JHipster project per information in .yo-rc.json.');
+                    this.error('Missing .yo-rc.json or not a valid JHipster per data inside the .yo-rc.json.');
                 }
             },
             displayLogo() {
@@ -30,6 +31,7 @@ module.exports = class extends BaseGenerator {
         };
     }
 
+    // noinspection JSUnusedGlobalSymbols
     prompting() {
         if (this.fs.exists(this.destinationPath('.circleci/config.yml'))) {
             const prompts = [
@@ -55,6 +57,7 @@ module.exports = class extends BaseGenerator {
         }
     }
 
+    // noinspection JSUnusedGlobalSymbols
     writing() {
         if (this.props.override) {
             this.fs.copy(
@@ -65,6 +68,7 @@ module.exports = class extends BaseGenerator {
         }
     }
 
+    // noinspection JSUnusedGlobalSymbols
     end() {
         this.log('End of circleci-2 generator');
     }

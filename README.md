@@ -1,5 +1,5 @@
 # generator-jhipster-circleci-2
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]  [![devDependencies Status][devdep-image]][devdep-url] [![peerDependency Status][peerdep-image]][peerdep-url]
 > JHipster module, used to create Circle CI configuration file of version 2
 
 <div align="center">
@@ -73,3 +73,7 @@ MIT © [Jun Cai](https://github.com/jeantsai)
 [travis-url]: https://travis-ci.org/jeantsai/generator-jhipster-circleci-2
 [daviddm-image]: https://david-dm.org/jeantsai/generator-jhipster-circleci-2.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/jeantsai/generator-jhipster-circleci-2
+[devdep-image]: https://david-dm.org/jeantsai/generator-jhipster-circleci-2/dev-status.svg
+[devdep-url]: https://david-dm.org/jeantsai/generator-jhipster-circleci-2?type=dev
+[peerdep-image]: https://david-dm.org/jeantsai/generator-jhipster-circleci-2/peer-status.svg
+[peerdep-url]: https://david-dm.org/jeantsai/generator-jhipster-circleci-2?type=peer

@@ -1,6 +1,6 @@
 {
   "name": "generator-jhipster-circleci-2",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Generating CircleCI configuration file version 2 for a JHipster project",
   "keywords": [
     "yeoman-generator",
@@ -30,11 +30,13 @@
     "yeoman-generator": "2.0.2"
   },
   "devDependencies": {
+    "chai": "^4.1.2",
     "eslint": "4.14.0",
     "eslint-config-airbnb-base": "12.1.0",
     "eslint-plugin-import": "2.8.0",
     "fs-extra": "5.0.0",
     "mocha": "4.1.0",
+    "nyc": "^11.4.1",
     "yeoman-assert": "3.1.0",
     "yeoman-test": "1.7.0"
   },
@@ -46,7 +48,7 @@
     "release:patch": "npm version patch -a -m \"Update to %s\" && npm run release",
     "release:minor": "npm version minor -a -m \"Update to %s\" && npm run release",
     "release:major": "npm version major -a -m \"Update to %s\" && npm run release",
-    "test": "mocha test/*"
+    "test": "nyc --reporter=lcov mocha test/*"
   },
   "license": "MIT",
   "bugs": {
