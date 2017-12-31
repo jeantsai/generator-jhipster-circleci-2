@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
     "eslint": "4.14.0",
     "eslint-config-airbnb-base": "12.1.0",
     "eslint-plugin-import": "2.8.0",
@@ -48,7 +49,7 @@
     "release:patch": "npm version patch -a -m \"Update to %s\" && npm run release",
     "release:minor": "npm version minor -a -m \"Update to %s\" && npm run release",
     "release:major": "npm version major -a -m \"Update to %s\" && npm run release",
-    "test": "nyc --reporter=lcov mocha test/*"
+    "test": "nyc --reporter=lcov mocha test/* && nyc report --reporter=text-lcov | coveralls"
   },
   "license": "MIT",
   "bugs": {
