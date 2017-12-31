@@ -20,6 +20,21 @@ describe('JHipster circleci-2', () => {
         });
     });
 
+    describe('old jhipster', () => {
+        beforeEach((done) => {
+            helpers
+                .run(path.join(__dirname, '../generators/app'))
+                .inTmpDir((dir) => {
+                    fse.copySync(path.join(__dirname, '../test/templates/old.jhipster'), dir);
+                })
+                .on('end', done);
+        });
+
+        it('generate files', () => {
+            yeomanAssert.file('.circleci/config.yml');
+        });
+    });
+
     describe('missing .yo-rc.json', () => {
         it('throw error and recommend to run yarn manually', (done) => {
             helpers

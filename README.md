@@ -2,6 +2,7 @@
   [![NPM version][npm-image]][npm-url] 
   [![NPM Downloads][downloads-image]][downloads-url] 
   [![Build Status][travis-image]][travis-url] 
+  [![Coverage Status][coveralls-image]][coveralls-url] 
   [![Dependency Status][daviddm-image]][daviddm-url] 
   [![devDependencies Status][devdep-image]][devdep-url] 
   [![peerDependency Status][peerdep-image]][peerdep-url] 
@@ -74,13 +75,17 @@ MIT © [Jun Cai](https://github.com/jeantsai)
 
 [npm-image]: https://img.shields.io/npm/v/generator-jhipster-circleci-2.svg
 [npm-url]: https://npmjs.org/package/generator-jhipster-circleci-2
+[downloads-image]: https://img.shields.io/npm/dm/generator-jhipster-circleci-2.svg
+[downloads-url]: https://npmjs.org/package/generator-jhipster-circleci-2
+
 [travis-image]: https://travis-ci.org/jeantsai/generator-jhipster-circleci-2.svg?branch=master
 [travis-url]: https://travis-ci.org/jeantsai/generator-jhipster-circleci-2
+[coveralls-image]: https://coveralls.io/repos/github/jeantsai/generator-jhipster-circleci-2/badge.svg?branch=master
+[coveralls-url]: https://coveralls.io/github/jeantsai/generator-jhipster-circleci-2?branch=master
+
 [daviddm-image]: https://david-dm.org/jeantsai/generator-jhipster-circleci-2.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/jeantsai/generator-jhipster-circleci-2
 [devdep-image]: https://david-dm.org/jeantsai/generator-jhipster-circleci-2/dev-status.svg
 [devdep-url]: https://david-dm.org/jeantsai/generator-jhipster-circleci-2?type=dev
 [peerdep-image]: https://david-dm.org/jeantsai/generator-jhipster-circleci-2/peer-status.svg
 [peerdep-url]: https://david-dm.org/jeantsai/generator-jhipster-circleci-2?type=peer
-[downloads-image]: https://img.shields.io/npm/dm/generator-jhipster-circleci-2.svg
-[downloads-url]: https://npmjs.org/package/generator-jhipster-circleci-2
